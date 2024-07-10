@@ -43,7 +43,7 @@ if __name__ == "__main__":
     ignore_list = [
         os.path.join(directory, '.git'),
         os.path.join(directory, '__pycache__'),  # Example: add any other folder or file you want to ignore
-        os.path.join(directory, 'minigame.zip')  # Example: add any specific file to ignore
+        os.path.join(directory, 'minigame.mcworld')  # Example: add any specific file to ignore
     ]
     
     file_paths = []
@@ -87,4 +87,3 @@ if __name__ == "__main__":
     subprocess.run(['git', 'push', '--tags'])
     
     print(f"Released version {next_release_version} successfully.")
-
