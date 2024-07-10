@@ -1,0 +1,40 @@
+{
+"format_version": 2,
+"header": {
+"description": "Pack by keno Port by Reqolour",
+"name": "§1§lStar§5light §f16x",
+"uuid": "7d6422cd-9bc5-4c28-b142-e21e18f62e31",
+"version": [1, 10, 1],
+"min_engine_version": [1, 16, 0]
+},
+"modules": [
+{
+"description": "Pack by keno Port by Reqolour",
+"type": "resources",
+"uuid": "d60d6354-671e-4203-8fce-9b9fdb857fa7",
+"version": [0, 0, 1]
+}
+],
+"subpacks": [
+{
+"folder_name": "Day Sky NO Hit Particle",
+"name": "§l§eDay Sky §l§cNO §fHit Particle",
+"memory_tier": 1
+},
+{
+"folder_name": "Night Sky NO Hit Particle",
+"name": "§l§8Night Sky §cNO §fHit Particle",
+"memory_tier": 1
+},
+{
+"folder_name": "Day Sky + Hit Particle",
+"name": "§l§eDay Sky §l§a+ §fHit Particle",
+"memory_tier": 1
+},
+{
+"folder_name": "Night Sky + Hit Particle",
+"name": "§l§8Night Sky §a+ §fHit Particle",
+"memory_tier": 1
+} 
+] 
+}
