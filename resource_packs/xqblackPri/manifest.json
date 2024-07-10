@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "§6Born For cpvp",
+    "name": "xq black Private",
+    "platform_locked": false,
+    "uuid": "41ea0ae7-a3e3-45d1-b2b4-6a36cac6f455",
+    "version": [
+      0,
+      0,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "§6Born For cpvp",
+      "type": "resources",
+      "uuid": "75639a55-a92a-4f4e-993d-2a971d660233",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

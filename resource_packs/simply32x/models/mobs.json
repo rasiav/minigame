@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "geometry.elytra1": {
+    "texturewidth": 64,
+    "textureheight": 32,
+
+    "bones": [
+      {
+        "name": "root",
+        "pivot": [ 0.0, 0.0, 0.0 ]
+      },
+      {
+        "name": "body",
+        "pivot": [ 0.0, 24.0, 0.0 ],
+        "parent": "root"
+      },
+      {
+        "name": "left_wing",
+        "parent": "body",
+        "pivot": [ 0.0, 24.0, 0.0 ],
+        "cubes": [
+          {
+            "origin": [ -10.0, 0.0, 0.0 ],
+            "size": [ 10, 20, 2 ],
+            "uv": [ 22, 0 ]
+          }
+        ]
+      },
+      {
+        "name": "right_wing",
+        "parent": "body",
+        "pivot": [ 0.0, 24.0, 0.0 ],
+        "mirror": true,
+        "cubes": [
+          {
+            "origin": [ 0.0, 0.0, 0.0 ],
+            "size": [ 10, 20, 2 ],
+            "uv": [ 22, 0 ]
+          }
+        ]
+      }
+    ]
+  }
+}

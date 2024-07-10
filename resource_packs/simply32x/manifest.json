@@ -1,0 +1,40 @@
+{
+"format_version": 2,
+"header": {
+"description": "§l§fPack by §bLooshy §l§fPort by §bCactiPlayz",
+"name": "§bsimply §f32§3x",
+"uuid": "c7377e56-153a-4a04-9657-0b5c9f3214c8",
+"version": [1, 10, 1],
+"min_engine_version": [1, 16, 0]
+},
+"modules": [
+{
+"description": "sub to cacti!",
+"type": "resources",
+"uuid": "3c62624d-0632-4fb7-8865-a08ae6465ee4",
+"version": [0, 0, 1]
+}
+],
+"subpacks": [
+{
+"folder_name": "Day Sky NO Hit Particle",
+"name": "§l§eDay Sky §l§cNO §fHit Particle",
+"memory_tier": 1
+},
+{
+"folder_name": "Night Sky NO Hit Particle",
+"name": "§l§8Night Sky §cNO §fHit Particle",
+"memory_tier": 1
+},
+{
+"folder_name": "Day Sky + Hit Particle",
+"name": "§l§eDay Sky §l§a+ §fHit Particle",
+"memory_tier": 1
+},
+{
+"folder_name": "Night Sky + Hit Particle",
+"name": "§l§8Night Sky §a+ §fHit Particle",
+"memory_tier": 1
+} 
+] 
+}

@@ -1,0 +1,34 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.actor.billboard": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1)", 0.0 ],
+          "position": [ 0.0, 0.0, "math.clamp(-0.125 * math.sqrt(query.life_time) + 3.25, 0.0, 3.25)" ],
+          "scale": "math.clamp(0.82 - math.sqrt(query.distance_from_camera * 1.6) * 0.06, 0.59, 0.82)"
+        }
+      }
+    },
+    "animation.actor.billboard.fishing_hook": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1)", 0.0 ],
+          "scale": "math.clamp(1.05 - math.sqrt(query.distance_from_camera * 1.6) * 0.04, 0.95, 1.05)"
+        }
+      }
+    },
+    "animation.actor.billboard.splash_potion": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [ 0.0, 0.0, "math.clamp(-0.05 * math.sqrt(query.life_time) + 2.0, 0.0, 2.0)" ],
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1)", 0.0 ],
+          "scale": "math.clamp(0.7 - math.sqrt(query.distance_from_camera * 2.0) * 0.0175, 0.63, 0.7)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/glowstone.png",
+        "atlas_tile": "glowstone",
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/torch_on.png",
+        "atlas_tile": "torch_on",
+        "ticks_per_frame": 2,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/lava_flow.png",
+        "atlas_tile": "lava_flow",
+        "ticks_per_frame": 3,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/lava_still.png",
+        "atlas_tile": "lava_still",
+        "ticks_per_frame": 3,
+        "blend_frames": true,
+        "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "flipbook_texture": "textures/blocks/water_flow.png",
+        "atlas_tile": "water_flow",
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/water_still.png",
+        "atlas_tile": "water_still",
+        "ticks_per_frame": 2
+    },
+    {
+        "flipbook_texture": "textures/blocks/prismarine_rough.png",
+        "atlas_tile": "prismarine_rough",
+        "ticks_per_frame": 300,
+        "blend_frames": true,
+        "frames": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            3,
+            0,
+            1,
+            2,
+            1,
+            3,
+            1,
+            0,
+            2,
+            1,
+            2,
+            3,
+            2,
+            0,
+            3,
+            1,
+            3
+        ]
+    },
+    {
+        "flipbook_texture": "textures/blocks/command_block_conditional.png",
+        "atlas_tile": "command_block_conditional",
+        "ticks_per_frame": 10,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/command_block_side.png",
+        "atlas_tile": "command_block_side",
+        "ticks_per_frame": 10,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/fire_0.png",
+        "atlas_tile": "fire_0",
+        "ticks_per_frame": 1,
+        "frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "flipbook_texture": "textures/blocks/fire_1.png",
+        "atlas_tile": "fire_1",
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/portal.png",
+        "atlas_tile": "portal",
+        "ticks_per_frame": 1
+    },
+    {
+        "flipbook_texture": "textures/blocks/command_block.png",
+        "atlas_tile": "command_block",
+        "ticks_per_frame": 10,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/command_block_front.png",
+        "atlas_tile": "command_block_front",
+        "ticks_per_frame": 10,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/sea_lantern.png",
+        "atlas_tile": "sea_lantern",
+        "ticks_per_frame": 5
+    },
+    {
+        "flipbook_texture": "textures/blocks/furnace_front_on.png",
+        "atlas_tile": "furnace_front_on",
+        "ticks_per_frame": 2,
+        "blend_frames": true
+    }
+]

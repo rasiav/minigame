@@ -1,0 +1,4 @@
+credits
+
+filler 32x textures from faithful 32x 1.19 (includes blocks and items)
+wood (planks + logs), stone (all stone-related blocks), and chest textures by kenoh (rosea 32x)
